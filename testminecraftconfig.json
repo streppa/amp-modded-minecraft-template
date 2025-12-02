@@ -1,0 +1,14 @@
+[
+    {
+        "DisplayName": "Server Port",
+        "Category": "Server Settings",
+        "Description": "The port the server listens on",
+        "Keywords": "port",
+        "FieldName": "ServerPort",
+        "InputType": "number",
+        "ParamFieldName": "server-port",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "25565",
+        "Required": true
+    }
+]
