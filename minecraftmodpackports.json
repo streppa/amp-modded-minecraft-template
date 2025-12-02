@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": 25565,
+        "Ref": "MinecraftPort",
+        "Name": "Minecraft Server Port",
+        "Description": "Port for Minecraft client connections"
+    },
+    {
+        "Protocol": "Both",
+        "Port": 25575,
+        "Ref": "RCONPort",
+        "Name": "RCON Port",
+        "Description": "Port for RCON remote administration (optional)"
+    }
+]

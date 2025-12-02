@@ -1,0 +1,22 @@
+[
+    {
+        "UpdateStageName": "Install Modpack",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSourceData": "pwsh",
+        "UpdateSourceArgs": "-ExecutionPolicy Bypass -File \"{{$FullBaseDir}}modpack-install.ps1\" -Platform \"{{ModpackPlatform}}\" -ModpackID \"{{ModpackID}}\" -Version \"{{ModpackVersion}}\" -InstallPath \"{{$FullRootDir}}\"",
+        "UpdateSourceTarget": "Executable",
+        "UpdateSourceVersion": "",
+        "UpdateSourceCondition": "{{InstallModpack}}",
+        "OverwriteExistingFiles": true
+    },
+    {
+        "UpdateStageName": "Install Modpack",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "\"{{$FullBaseDir}}modpack-install.sh\" \"{{ModpackPlatform}}\" \"{{ModpackID}}\" \"{{ModpackVersion}}\" \"{{$FullRootDir}}\"",
+        "UpdateSourceTarget": "Executable",
+        "UpdateSourceVersion": "",
+        "UpdateSourceCondition": "{{InstallModpack}}",
+        "OverwriteExistingFiles": true
+    }
+]

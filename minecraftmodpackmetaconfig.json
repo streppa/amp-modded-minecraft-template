@@ -1,0 +1,15 @@
+[
+    {
+        "ConfigFile": "server.properties",
+        "AutoMap": true,
+        "ConfigType": "kvp",
+        "ConfigFormatRegex": "^(?<key>[^\\s=]+)\\s*=\\s*(?<value>.*)$",
+        "ConfigFormat": "{0}={1}"
+    },
+    {
+        "ConfigFile": "eula.txt",
+        "AutoMap": false,
+        "ConfigType": "kvp",
+        "ConfigFormat": "{0}={1}"
+    }
+]
