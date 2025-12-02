@@ -5,9 +5,8 @@
     ],
     "origin": "https://github.com/Hellmonkeyy/AMP-Modded-Minecraft-Template.git",
     "url": "https://github.com/Hellmonkeyy/AMP-Modded-Minecraft-Template",
-    "imagefile": "minecraft-modpack.png",
+    "imagefile": "",
     "prefix": "ModpackInstaller",
-    "repotype": "git",
-    "branch": "main",
+    "repotype": "AppTemplates",
     "description": "Minecraft modpack server template with CurseForge and Modrinth support for AMP"
 }
